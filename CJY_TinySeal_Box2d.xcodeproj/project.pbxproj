@@ -297,6 +297,14 @@
 		CE91AE1A1895BA90000DB8D7 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE91AE191895BA90000DB8D7 /* AppDelegate.cpp */; };
 		CE91AE1D1895BA90000DB8D7 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE91AE1C1895BA90000DB8D7 /* HelloWorldScene.cpp */; };
 		CE91AE1F1895BA90000DB8D7 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91AE1E1895BA90000DB8D7 /* blocks.png */; };
+		CE91AE271895BAE8000DB8D7 /* Terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE91AE251895BAE8000DB8D7 /* Terrain.cpp */; };
+		CE91AE291895BB51000DB8D7 /* Noise.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91AE281895BB51000DB8D7 /* Noise.png */; };
+		CE91AE2C1895C9FE000DB8D7 /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE91AE2A1895C9FE000DB8D7 /* GLES-Render.cpp */; };
+		CE91AE311895CF4E000DB8D7 /* TinySeal.caf in Resources */ = {isa = PBXBuildFile; fileRef = CE91AE2D1895CF4E000DB8D7 /* TinySeal.caf */; };
+		CE91AE321895CF4E000DB8D7 /* TinySeal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE91AE2E1895CF4E000DB8D7 /* TinySeal.mp3 */; };
+		CE91AE331895CF4E000DB8D7 /* TinySeal.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE91AE2F1895CF4E000DB8D7 /* TinySeal.plist */; };
+		CE91AE341895CF4E000DB8D7 /* TinySeal.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91AE301895CF4E000DB8D7 /* TinySeal.png */; };
+		CE91AE371895CF62000DB8D7 /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE91AE351895CF62000DB8D7 /* Hero.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -923,6 +931,17 @@
 		CE91AE1B1895BA90000DB8D7 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		CE91AE1C1895BA90000DB8D7 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		CE91AE1E1895BA90000DB8D7 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		CE91AE251895BAE8000DB8D7 /* Terrain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Terrain.cpp; path = Classes/Terrain.cpp; sourceTree = "<group>"; };
+		CE91AE261895BAE8000DB8D7 /* Terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Terrain.h; path = Classes/Terrain.h; sourceTree = "<group>"; };
+		CE91AE281895BB51000DB8D7 /* Noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Noise.png; path = Resources/Noise.png; sourceTree = "<group>"; };
+		CE91AE2A1895C9FE000DB8D7 /* GLES-Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "GLES-Render.cpp"; path = "Classes/GLES-Render.cpp"; sourceTree = "<group>"; };
+		CE91AE2B1895C9FE000DB8D7 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GLES-Render.h"; path = "Classes/GLES-Render.h"; sourceTree = "<group>"; };
+		CE91AE2D1895CF4E000DB8D7 /* TinySeal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TinySeal.caf; path = Resources/TinySeal.caf; sourceTree = "<group>"; };
+		CE91AE2E1895CF4E000DB8D7 /* TinySeal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TinySeal.mp3; path = Resources/TinySeal.mp3; sourceTree = "<group>"; };
+		CE91AE2F1895CF4E000DB8D7 /* TinySeal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TinySeal.plist; path = Resources/TinySeal.plist; sourceTree = "<group>"; };
+		CE91AE301895CF4E000DB8D7 /* TinySeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TinySeal.png; path = Resources/TinySeal.png; sourceTree = "<group>"; };
+		CE91AE351895CF62000DB8D7 /* Hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Hero.cpp; path = Classes/Hero.cpp; sourceTree = "<group>"; };
+		CE91AE361895CF62000DB8D7 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hero.h; path = Classes/Hero.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -994,6 +1013,11 @@
 		CE91AA551895BA8D000DB8D7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE91AE2D1895CF4E000DB8D7 /* TinySeal.caf */,
+				CE91AE2E1895CF4E000DB8D7 /* TinySeal.mp3 */,
+				CE91AE2F1895CF4E000DB8D7 /* TinySeal.plist */,
+				CE91AE301895CF4E000DB8D7 /* TinySeal.png */,
+				CE91AE281895BB51000DB8D7 /* Noise.png */,
 				CE91AA561895BA8D000DB8D7 /* CloseNormal.png */,
 				CE91AA581895BA8D000DB8D7 /* CloseSelected.png */,
 				CE91AA5A1895BA8D000DB8D7 /* Default.png */,
@@ -2192,10 +2216,16 @@
 		CE91AE171895BA90000DB8D7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CE91AE2A1895C9FE000DB8D7 /* GLES-Render.cpp */,
+				CE91AE2B1895C9FE000DB8D7 /* GLES-Render.h */,
 				CE91AE181895BA90000DB8D7 /* AppDelegate.h */,
 				CE91AE191895BA90000DB8D7 /* AppDelegate.cpp */,
 				CE91AE1B1895BA90000DB8D7 /* HelloWorldScene.h */,
 				CE91AE1C1895BA90000DB8D7 /* HelloWorldScene.cpp */,
+				CE91AE251895BAE8000DB8D7 /* Terrain.cpp */,
+				CE91AE261895BAE8000DB8D7 /* Terrain.h */,
+				CE91AE351895CF62000DB8D7 /* Hero.cpp */,
+				CE91AE361895CF62000DB8D7 /* Hero.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2253,6 +2283,7 @@
 				CE91AA671895BA8D000DB8D7 /* Icon.png in Resources */,
 				CE91AB0A1895BA8D000DB8D7 /* ChangeLog in Resources */,
 				CE91AA571895BA8D000DB8D7 /* CloseNormal.png in Resources */,
+				CE91AE331895CF4E000DB8D7 /* TinySeal.plist in Resources */,
 				CE91AA631895BA8D000DB8D7 /* Icon-Small.png in Resources */,
 				CE91AA5F1895BA8D000DB8D7 /* Icon-72.png in Resources */,
 				CE91AA5D1895BA8D000DB8D7 /* HelloWorld.png in Resources */,
@@ -2260,9 +2291,13 @@
 				CE91AA6B1895BA8D000DB8D7 /* iTunesArtwork in Resources */,
 				CE91AA651895BA8D000DB8D7 /* Icon-Small@2x.png in Resources */,
 				CE91AA5B1895BA8D000DB8D7 /* Default.png in Resources */,
+				CE91AE291895BB51000DB8D7 /* Noise.png in Resources */,
 				CE91AA591895BA8D000DB8D7 /* CloseSelected.png in Resources */,
 				CE91AA691895BA8D000DB8D7 /* Icon@2x.png in Resources */,
+				CE91AE341895CF4E000DB8D7 /* TinySeal.png in Resources */,
+				CE91AE311895CF4E000DB8D7 /* TinySeal.caf in Resources */,
 				CE91AC7E1895BA8F000DB8D7 /* project.pbxproj in Resources */,
+				CE91AE321895CF4E000DB8D7 /* TinySeal.mp3 in Resources */,
 				CE91AE1F1895BA90000DB8D7 /* blocks.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2277,6 +2312,7 @@
 				CE91AC541895BA8E000DB8D7 /* CCTMXObjectGroup.cpp in Sources */,
 				CE91ACA91895BA8F000DB8D7 /* CCLabelTTFLoader.cpp in Sources */,
 				CE91AC651895BA8E000DB8D7 /* CCTouchHandler.cpp in Sources */,
+				CE91AE2C1895C9FE000DB8D7 /* GLES-Render.cpp in Sources */,
 				CE91AC9A1895BA8F000DB8D7 /* CCBValue.cpp in Sources */,
 				CE91AAA21895BA8D000DB8D7 /* CCAtlasNode.cpp in Sources */,
 				CE91ADDD1895BA90000DB8D7 /* b2EdgeAndCircleContact.cpp in Sources */,
@@ -2432,6 +2468,7 @@
 				CE91AA9E1895BA8D000DB8D7 /* CCActionTween.cpp in Sources */,
 				CE91ACC61895BA8F000DB8D7 /* CCParticleSystemQuadLoader.cpp in Sources */,
 				CE91AB4B1895BA8D000DB8D7 /* CCMenuItem.cpp in Sources */,
+				CE91AE371895CF62000DB8D7 /* Hero.cpp in Sources */,
 				CE91ACF61895BA8F000DB8D7 /* CCControlSlider.cpp in Sources */,
 				CE91AB5F1895BA8D000DB8D7 /* CCParticleExamples.cpp in Sources */,
 				CE91AB271895BA8D000DB8D7 /* CCKeypadDelegate.cpp in Sources */,
@@ -2491,6 +2528,7 @@
 				CE91AD821895BA8F000DB8D7 /* b2BroadPhase.cpp in Sources */,
 				CE91AACE1895BA8D000DB8D7 /* CCNS.cpp in Sources */,
 				CE91ADB01895BA8F000DB8D7 /* b2Settings.cpp in Sources */,
+				CE91AE271895BAE8000DB8D7 /* Terrain.cpp in Sources */,
 				CE91AB551895BA8D000DB8D7 /* CCProgressTimer.cpp in Sources */,
 				CE91AB651895BA8E000DB8D7 /* CCParticleSystemQuad.cpp in Sources */,
 				CE91AD3F1895BA8F000DB8D7 /* Animation.cpp in Sources */,
